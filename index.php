@@ -1,5 +1,5 @@
 <?php session_start();
-
+    echo "winzrd";
     if(!isset($_SESSION['usename'])){
         $_SESSION['msg']="You must log in fist";
         header('location: login.php');
